@@ -1,0 +1,12 @@
+
+if(hitung >= 4) {
+    hitung = 0;
+}
+else{
+    hitung++;
+}
+
+const number = ["6281272778236", "6285664914563"];
+const message = ["Format Local 1 Mesin #5", "Format Local 1 Mesin #6", "Format Local 2 Mesin #5", "Format Patrol Check #5 Mesin #5", "Format Patrol Check #6Mesin #6"];
+
+var hitung = 4
