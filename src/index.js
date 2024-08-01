@@ -66,7 +66,7 @@ const fetchMessagesToSend = () => {
     const formattedNow = adjustedNow.toISOString().slice(0, 19).replace('T', ' ');
     const formattedOneMinuteAgo = adjustedOneMinuteAgo.toISOString().slice(0, 19).replace('T', ' ');
 
-    const numbers = ["6281272778236", "6285664914563"];
+    const numbers = ["samplenumber", "6285664914563"];
 
     db.query(`SELECT * FROM ${table} WHERE waktu > ? AND waktu <= ?`, [formattedOneMinuteAgo, formattedNow], (err, results) => {
         if (err) {
