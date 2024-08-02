@@ -2,7 +2,7 @@ const { Client, LocalAuth } = require('whatsapp-web.js');
 const readline = require('readline');
 const cron = require('node-cron');
 const qrcode = require('qrcode-terminal');
-const numbers = ["6281272778236", "6285664914563"];
+const numbers = ["sample number", "6285664914563"];
 const messages = [
     "Format Patrol Check #7 Mesin #7",
     "Format Patrol Check #8 Mesin #8",
